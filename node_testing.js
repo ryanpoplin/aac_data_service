@@ -1,3 +1,7 @@
+/***
+ * - Da fuck is 'curl'...
+ * -
+ */
 // why is the R.E.P.L. doing everything twice???...
 "use strict";
 // I.I.F.E. Ø∏“
@@ -9,6 +13,7 @@
     }, 2000); // ˆπˆ
     console.log("hello...");*/
     var http = require('http');
+    // callback, yo...
     var s = http.createServer(function(req, res) {
         res.writeHead(200, {
             'content-type': 'text/plain'
